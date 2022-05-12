@@ -1,11 +1,11 @@
-﻿using MediatR;
+﻿using Company.Project.Domain.Question;
+using MediatR;
 using Microsoft.Extensions.Logging;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Upstack.Faq.Domain.Question;
 
-namespace Upstack.Faq.Application.UseCases.LoadQuestions
+namespace Company.Project.Application.UseCases.LoadQuestions
 {
     public class LoadQuestions : IRequestHandler<LoadQuestionsInput, LoadQuestionsOutput>
     {

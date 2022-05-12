@@ -1,14 +1,14 @@
-﻿using MediatR;
+﻿using Company.Project.Api.Transport.Request;
+using Company.Project.Application.UseCases.LoadQuestions;
+using Company.Project.Application.UseCases.NewQuestion;
+using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Threading;
 using System.Threading.Tasks;
-using Upstack.Faq.Api.Transport.Request;
-using Upstack.Faq.Application.UseCases.LoadQuestions;
-using Upstack.Faq.Application.UseCases.NewQuestion;
 
-namespace Upstack.Faq.Api.Controllers
+namespace Company.Project.Api.Controllers
 {
     [ApiVersion("1")]
     [Route("api/v{version:apiVersion}/[controller]")]

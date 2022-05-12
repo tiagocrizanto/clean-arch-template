@@ -1,4 +1,4 @@
-﻿namespace Upstack.Faq.Api.Transport.Response.FaqController
+﻿namespace Company.Project.Api.Transport.Response.FaqController
 {
     public class LoadQuestionsResponse
     {

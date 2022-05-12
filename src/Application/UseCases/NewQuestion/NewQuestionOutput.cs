@@ -1,4 +1,4 @@
-﻿namespace Upstack.Faq.Application.UseCases.NewQuestion
+﻿namespace Company.Project.Application.UseCases.NewQuestion
 {
     public class NewQuestionOutput
     {

@@ -1,9 +1,9 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Company.Project.Infrastructure.Data.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using Upstack.Faq.Infrastructure.Data.Configuration;
 
-namespace Upstack.Faq.Api.DependencyInjection.DataAccess
+namespace Company.Project.Api.DependencyInjection.DataAccess
 {
     [ExcludeFromCodeCoverage]
     public static class DatabaseExtentions

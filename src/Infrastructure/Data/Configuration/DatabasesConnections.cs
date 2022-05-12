@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace Upstack.Faq.Infrastructure.Data.Configuration
+namespace Company.Project.Infrastructure.Data.Configuration
 {
     [ExcludeFromCodeCoverage]
     public class DatabasesConnections

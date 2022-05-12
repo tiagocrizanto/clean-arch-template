@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Upstack.Faq.Application.UseCases.LoadQuestions
+namespace Company.Project.Application.UseCases.LoadQuestions
 {
     public class LoadQuestionsOutput
     {

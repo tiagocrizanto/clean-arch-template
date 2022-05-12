@@ -5,9 +5,9 @@
 
     <IsPackable>false</IsPackable>
 
-    <AssemblyName>Upstack.Faq.UnitTest</AssemblyName>
+    <AssemblyName>Company.Project.UnitTest</AssemblyName>
 
-    <RootNamespace>Upstack.Faq.UnitTest</RootNamespace>
+    <RootNamespace>Company.Project.UnitTest</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

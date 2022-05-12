@@ -1,4 +1,4 @@
-﻿namespace Upstack.Faq.Domain
+﻿namespace Company.Project.Domain
 {
     public class Questions
     {

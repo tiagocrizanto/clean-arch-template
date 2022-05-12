@@ -1,7 +1,7 @@
-﻿namespace Upstack.Faq.Infrastructure.Data.Configuration
+﻿namespace Company.Project.Infrastructure.Data.Configuration
 {
     public enum DatabaseConnectionName
     {
-        SqlServerUpstackFaq
+        SqlServerDatabaseName
     }
 }

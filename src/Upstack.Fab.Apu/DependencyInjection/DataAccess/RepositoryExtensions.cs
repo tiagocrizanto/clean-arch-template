@@ -1,9 +1,9 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Company.Project.Domain.Question;
+using Company.Project.Infrastructure.Data.SqlServer;
+using Microsoft.Extensions.DependencyInjection;
 using System.Diagnostics.CodeAnalysis;
-using Upstack.Faq.Domain.Question;
-using Upstack.Faq.Infrastructure.Data.SqlServer;
 
-namespace Upstack.Faq.Api.DependencyInjection.DataAccess
+namespace Company.Project.Api.DependencyInjection.DataAccess
 {
     [ExcludeFromCodeCoverage]
     public static class RepositoryExtensions

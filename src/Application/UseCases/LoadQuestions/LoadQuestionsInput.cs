@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Upstack.Faq.Application.UseCases.LoadQuestions
+namespace Company.Project.Application.UseCases.LoadQuestions
 {
     public class LoadQuestionsInput : IRequest<LoadQuestionsOutput>
     {

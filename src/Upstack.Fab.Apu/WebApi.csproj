@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <AssemblyName>Upstack.Faq.Api</AssemblyName>
-    <RootNamespace>Upstack.Faq.Api</RootNamespace>
+    <AssemblyName>Company.Project.Api</AssemblyName>
+    <RootNamespace>Company.Project.Api</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

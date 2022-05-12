@@ -1,11 +1,11 @@
-﻿using MediatR;
+﻿using Company.Project.Domain;
+using Company.Project.Domain.Question;
+using MediatR;
 using Microsoft.Extensions.Logging;
 using System.Threading;
 using System.Threading.Tasks;
-using Upstack.Faq.Domain;
-using Upstack.Faq.Domain.Question;
 
-namespace Upstack.Faq.Application.UseCases.NewQuestion
+namespace Company.Project.Application.UseCases.NewQuestion
 {
     public class NewQuestion : IRequestHandler<NewQuestionInput, NewQuestionOutput>
     {

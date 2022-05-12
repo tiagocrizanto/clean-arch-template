@@ -1,4 +1,4 @@
-﻿namespace Upstack.Faq.Infrastructure.Data.SqlServer.Command
+﻿namespace Company.Project.Infrastructure.Data.SqlServer.Command
 {
     public static class QuestionCommand
     {

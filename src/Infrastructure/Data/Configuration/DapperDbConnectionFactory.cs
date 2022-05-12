@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
 
-namespace Upstack.Faq.Infrastructure.Data.Configuration
+namespace Company.Project.Infrastructure.Data.Configuration
 {
     public class DapperDbConnectionFactory : IDbConnectionFactory
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Upstack.Faq.Domain.Question
+namespace Company.Project.Domain.Question
 {
     public interface IQuestionRepository
     {

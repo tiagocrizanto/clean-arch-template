@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <AssemblyName>Upstack.Faq.Application</AssemblyName>
-    <RootNamespace>Upstack.Faq.Application</RootNamespace>
+    <AssemblyName>Company.Project.Application</AssemblyName>
+    <RootNamespace>Company.Project.Application</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

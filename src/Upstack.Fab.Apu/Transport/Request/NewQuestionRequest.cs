@@ -1,4 +1,4 @@
-﻿namespace Upstack.Faq.Api.Transport.Request
+﻿namespace Company.Project.Api.Transport.Request
 {
     public class NewQuestionRequest
     {

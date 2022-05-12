@@ -1,3 +1,7 @@
+using Company.Project.Api.DependencyInjection.DataAccess;
+using Company.Project.Application.UseCases.LoadQuestions;
+using Company.Project.Application.UseCases.NewQuestion;
+using Company.Project.Infrastructure.Data.Configuration;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -7,12 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using System;
 using System.Collections.Generic;
-using Upstack.Faq.Api.DependencyInjection.DataAccess;
-using Upstack.Faq.Application.UseCases.LoadQuestions;
-using Upstack.Faq.Application.UseCases.NewQuestion;
-using Upstack.Faq.Infrastructure.Data.Configuration;
 
 namespace Upstack.Fab.Apu
 {
@@ -31,7 +30,7 @@ namespace Upstack.Fab.Apu
             {
                 new DatabasesConnections
                 {
-                    Name = DatabaseConnectionName.SqlServerUpstackFaq,
+                    Name = DatabaseConnectionName.SqlServerDatabaseName,
                     Type = DatabaseConnectionType.SqlServer,
                     ConnectionString = Configuration.GetConnectionString("SqlServerUpstackFaq")
                 }

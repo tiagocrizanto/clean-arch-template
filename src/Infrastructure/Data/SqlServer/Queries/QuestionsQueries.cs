@@ -1,4 +1,4 @@
-﻿namespace Upstack.Faq.Infrastructure.Data.SqlServer.Queries
+﻿namespace Company.Project.Infrastructure.Data.SqlServer.Queries
 {
     public static class QuestionsQueries
     {

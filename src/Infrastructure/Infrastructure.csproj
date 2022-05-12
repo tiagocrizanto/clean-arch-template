@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <AssemblyName>Upstack.Faq.Infrastructure</AssemblyName>
-    <RootNamespace>Upstack.Faq.Infrastructure</RootNamespace>
+    <AssemblyName>Company.Project.Infrastructure</AssemblyName>
+    <RootNamespace>Company.Project.Infrastructure</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
