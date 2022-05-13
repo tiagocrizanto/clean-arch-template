@@ -13,7 +13,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using System.Collections.Generic;
 
-namespace Upstack.Fab.Apu
+namespace Company.Project.Api
 {
     public class Startup
     {
@@ -32,7 +32,7 @@ namespace Upstack.Fab.Apu
                 {
                     Name = DatabaseConnectionName.SqlServerDatabaseName,
                     Type = DatabaseConnectionType.SqlServer,
-                    ConnectionString = Configuration.GetConnectionString("SqlServerUpstackFaq")
+                    ConnectionString = Configuration.GetConnectionString("SqlServerDatabaseName")
                 }
             };
 
@@ -40,7 +40,7 @@ namespace Upstack.Fab.Apu
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Upstack.Faq.Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Company.Project.Api", Version = "v1" });
                 c.EnableAnnotations();
             });
             AddVersion(services);

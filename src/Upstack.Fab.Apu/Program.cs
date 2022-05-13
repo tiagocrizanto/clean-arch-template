@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Upstack.Fab.Apu
+namespace Company.Project.Api
 {
     public class Program
     {
