@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32228.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E07DF0BE-14CD-4633-8299-29ACC89FC591}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\Upstack.Fab.Apu\WebApi.csproj", "{BDCF2837-43DD-485C-AD5C-74B3E5296184}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\WebApi\WebApi.csproj", "{BDCF2837-43DD-485C-AD5C-74B3E5296184}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\Application\Application.csproj", "{C8DDBF95-87FD-4002-ADFA-0E6B6EC17586}"
 EndProject
