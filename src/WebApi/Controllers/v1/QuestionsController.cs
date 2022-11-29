@@ -1,23 +1,22 @@
 ﻿using Company.Project.Api.Transport.Request;
 using Company.Project.Application.UseCases.LoadQuestions;
 using Company.Project.Application.UseCases.NewQuestion;
-using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
-using System.Threading;
 using System.Threading.Tasks;
+using System.Threading;
+using MediatR;
 
-namespace Company.Project.Api.Controllers
+namespace Company.Project.Api.Controllers.v1
 {
-    [ApiVersion("1")]
     [Route("api/v{version:apiVersion}/[controller]")]
+    [ApiVersion("1")]
     [ApiController]
-    public class FaqController : ControllerBase
+    public class QuestionsController : ControllerBase
     {
         private readonly IMediator _mediator;
-
-        public FaqController(IMediator mediator)
+        public QuestionsController(IMediator mediator)
         {
             _mediator = mediator;
         }
@@ -31,7 +30,7 @@ namespace Company.Project.Api.Controllers
             var input = new LoadQuestionsInput();
             var output = await _mediator.Send(input, cancellationToken);
 
-            if(output.IsValid)
+            if (output.IsValid)
             {
                 return Ok(output);
             }
@@ -40,7 +39,7 @@ namespace Company.Project.Api.Controllers
         }
 
         [HttpPost("new-question")]
-        [SwaggerOperation("Inser new question")]
+        [SwaggerOperation("Insert new question")]
         [SwaggerResponse(StatusCodes.Status200OK)]
         [SwaggerResponse(StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> LoadQuestions([FromQuery] NewQuestionRequest newQuestion)
